@@ -1,0 +1,2 @@
+
+                let mapWindow = createMap(window)
