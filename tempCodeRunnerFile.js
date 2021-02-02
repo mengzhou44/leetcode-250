@@ -1,8 +1,2 @@
 
-console.log(alienOrders([
-    "wrt",
-    "wrf",
-    "er",
-    "ett",
-    "rftt"
-  ]))
+    ['INF', '-1', '0', 'INF'],

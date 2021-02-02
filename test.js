@@ -1,35 +1,45 @@
-function stepIterator(start, step) {
-    let cur = start 
-    function count() {
-        cur+=step
-        console.log(cur)
-    }
-    return count
+function Circle(r) {
+        this.radius = r;
+        this.area = () => 3.14 * this.radius * this.radius;
 }
 
-let stepOfTwo = stepIterator(0,2)
-stepOfTwo()
-stepOfTwo()
-stepOfTwo()
+let c1 = new Circle(3);
+ 
+ 
+ 
+window.radius = 9 
+c1.perimeter = ()=>  this.radius 
 
-let temp = [2,4,3,5]
-let filtered = temp.filter(
-    (item, index, array)=> {
-     
-     return  item%2 === 0 
-})
+console.log(c1.perimeter());
+ 
 
 
-let result = [2,3,4,5].reduce((sum,item)=> sum+item, 0 )
-console.log(result)
+const 
+
+// String.prototype.reverse = function () {
+//        let array = this.split('')
+//        return array.reverse().join('')
+// };
 
 
-function sum() {
-    return Array.from(arguments).reduce((sum, item)=> sum+item, 0)
-}
+// console.log('12345678'.reverse())
 
-function findLargest(nums){
-    return nums.reduce((max,num)=> Math.max(max, num), Number.MIN_SAFE_INTEGER)
-}
 
-console.log(findLargest([12,34,2]))
+// function sum() {
+//      let array = Array.from(arguments)
+//      return array.reduce((sum, cur)=> {
+//          if (isNaN(cur)) {
+//             throw Error('Invalid number')
+//          }
+
+//          return sum+cur
+       
+//      })
+// }
+
+// try{
+//     sum(2, 5,6, '*')
+// } catch(error) {
+//     console.log(error)
+// }
+ 
