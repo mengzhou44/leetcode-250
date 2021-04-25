@@ -1,2 +1,2 @@
 
-    ['INF', '-1', '0', 'INF'],
+root.next.next = new ListNode(3)
